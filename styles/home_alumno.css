@@ -1,0 +1,24 @@
+
+#box_fondo{                                                                                                                                                                                                                   
+
+    background-image: url("../images/Venus2prueba.jpg");
+}
+
+.nav_link{
+    text-decoration: none;
+}
+
+/* Estableciendo color del texto de logo de NavBar */
+.navbar-brand{ 
+    color: white;
+}
+/* Cambiando tamaño de logo preguntados */
+.custom-image12 {
+    max-width: 40px;
+    height: auto;
+}
+
+/* Hacer cirular un cuadrado de imagen */
+.circular--square {
+    border-radius: 50%;
+}

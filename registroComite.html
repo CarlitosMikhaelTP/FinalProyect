@@ -16,43 +16,49 @@
 </head>
 
 <body class="fondo">
-    <div style="display: flex;flex-direction: column;">
+    <div class="base">
 
-        <div class=" nav_homesite"><!--Sección superior de navegación y logo-->
+        <div class=" nav_homesite">
 
             <div class=""> <!--Icono del logo de la aplicación-->
                 <p style="color: aliceblue;">Preguntados</p>
             </div>
-
-            <div class="nav_list"><!--Opciones de navegación de inicio-->
-
-
+            <!--Div de la lista de opciones de navegador-->
+            <!--Mas info/Como jugar/iniciar sesion/registrarse-->
+            <div class="nav_list">
+                <!--Div más info-->
                 <div class="box_link">
-                    <a href="" class="nav_link">
+                    <a href="info.html" class="nav_link">
                         <p class="nav_text">Mas info</p>
                     </a>
                 </div>
+                <!--Div de ¿cómo jugar?-->
                 <div class="box_link">
-                    <a href="" class="nav_link">
+                    <a href="jugar.html" class="nav_link">
                         <p class="nav_text">Cómo jugar?</p>
                     </a>
                 </div>
+                <!--Div de iniciar sesión-->
                 <div class="box_link">
-                    <a href="" class="nav_link">
-                        <p class="nav_text">Iniciar sesión</p>
-                    </a>
+                    
+                        <a href="login.html" class="nav_link">
+                            <p class="nav_text"> Iniciar sesión </p>
+                        </a>
+
+                        <p class="nav_text">/</p>
+                        
+                        <a href="registro_tipo.html" class="nav_link">
+                            <p class="nav_text">Registrarse<p>
+                        </a>
+                    
                 </div>
-                <div class="box_link">
-                    <a href="" class="nav_link">
-                        <p class="nav_text">Registrarse</p>
-                    </a>
-                </div>
+                <!--Div de registrarse-->
 
             </div>
 
         </div>
-
-        <div class="d-flex justify-content-center align-items-center"><!--sección principal-->
+        <!--sección principal-->
+        <div style="height: 100vh;" class="d-flex justify-content-center align-items-center">
             <div class="d-flex" style=" background-color: rgb(255, 255, 255);">
                 <div class="col-lg-6  col-12 "><!--sección registro-->
                     <div style="padding: 50px;">
@@ -93,7 +99,7 @@
 
                             <div>
                                 <div class="d-flex justify-content-center" style="padding-top: 30px;"><!--Caja de boton de registrarme-->
-                                    <input type="button" value="Registrarme"  class="btn btn-outline-secondary btn-lg"  style="color: rgb(0, 0, 0)" >    
+                                    <a href="loginComite.html"><input type="button" value="Registrarme"  class="btn btn-danger btn-outline-secondary btn-lg"  style="color: rgb(0, 0, 0)" >    
                                 </div>
                                 <div class="d-flex justify-content-center" style="padding-top: 50px;"><!--Iniciar sesion-->
                                     <p class="d-flex " style="display: flex;">¿Tienes una cuenta? <a
@@ -106,7 +112,7 @@
                 
                 <div class="col-lg-6 card box_main_img  d-flex justify-content-center align-items-center box_main_form" style="background-color: aqua;"> <!--seccion imagen-->
         
-                        <img src="images/nave_espacial_login.jpg" alt="" width="100%" height="100%">
+                        <img src="images/nave2.jpg" alt="" width="100%" height="100%">
                         <div class="card-img-overlay d-flex align-items-start flex-column bd-highlight mb-3 ">
                             <div class="p-2  d-flex flex-column justify-content-center" style="width: 100%; height: 50%;">
                                 <!--Texto superiore-->
