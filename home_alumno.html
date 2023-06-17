@@ -83,101 +83,88 @@
     </div>
     <!-- Creación de otro cuerpo o caja que contendrá una tabla con el contenido de los resultados de los estudiantes -->
     <div style="background-color:whitesmoke;height: 100vh;">
-         <!-- Creación de   -->
+         <!-- Creación de fondo blanco que contendrá la tabla  -->
         <div class="" style="background-color:white; width: 80%; height: 100%;position: absolute; left: 10%;"> <!--Contenedor general de la segunda pagina-->
-            <div style="padding: 100px 0px 100px 0px"><!--Superior titulo e imagen-->
+            <!-- Estableciendo título superior con su imagen de la tabla -->
+            <div style="padding: 100px 0px 100px 0px">
+                <!-- Insertando título -->
                 <div style="background-color: blueviolet; border-bottom: 2px solid black; border-top: 2px solid black;">
                     <p style="font-size: 3.5vw; padding: 15px;" class="text-white">Mis evaluaciones</p>
                 </div>
-
+                <!-- Insertando imagen -->
                 <div style="position:absolute; top: 10vh; right: 120px;">
                     <img src="images/nave3.jpg" width="160px" height="200px" alt="">
                 </div>
             </div>
-
-            <div class="" style="padding-left: 100px;"> <!-- Form-->
+            <!-- Definiendo pequeño formulario con su posición izquierda -->
+            <div class="" style="padding-left: 100px;">
                 <form action="" class="d-flex">
+                    <!-- Insertando input de tipo calendario -->
                     <div style="padding-right: 10px;">
                         <input type="date" id="start" name="trip-start">
-                    </div><!--Calendario-->
+                    </div>
+                    <!-- Insertando input en el que se buscará por módulo -->
                     <div style="padding-left: 10px;">
                         <input type="text" class="form-control" placeholder="Buscar por módulo">
-
                     </div>
                 </form>
             </div>
-
-            <div style="padding: 10px 100px 10px 100px;"> <!--Table-->
+            <!-- Definiendo contenido de la tabla con sus estilos -->
+            <div style="padding: 10px 100px 10px 100px;">
                 <table class="table table-striped table-hover">
                     <thead>
+                        <!-- Estableciendo nombres de las columnas -->
                         <tr class="table100-head">
                             <th class="column1">Ranking</th>
                             <th class="column2">Estudiante</th>
                             <th class="column3">Usuarios</th>
-
                             <th class="column6">Puntaje Total</th>
                         </tr>
                     </thead>
+                    <!-- Estableciendo contenido de las columnas con tbody -->
                     <tbody>
                         <tr>
                             <td class="column1">1</td>
                             <td class="column2">Gabriel Vilca</td>
                             <td class="column3">gvilca</td>
-
-
                             <td class="column6">2000</td>
                         </tr>
                         <tr>
                             <td class="column1">2</td>
                             <td class="column2">Alexander Flores</td>
                             <td class="column3">aflore</td>
-
-
                             <td class="column6">1800</td>
                         </tr>
                         <tr>
                             <td class="column1">3</td>
                             <td class="column2">Aejandra Gomes</td>
                             <td class="column3">agomes</td>
-
-
                             <td class="column6">1600</td>
                         </tr>
                         <tr>
                             <td class="column1">4</td>
                             <td class="column2">Camila Espinoza</td>
                             <td class="column3">cespinoza00</td>
-
-
                             <td class="column6">1500</td>
                         </tr>
                         <tr>
                             <td class="column1">5</td>
                             <td class="column2">Alessandro Flores</td>
                             <td class="column3">mrbeast</td>
-
-
                             <td class="column6">1000</td>
                         </tr>
-
                         <tr>
                             <td class="column1">5</td>
                             <td class="column2">Alessandro Flores</td>
                             <td class="column3">mrbeast</td>
-
-
                             <td class="column6">1000</td>
                         </tr>
-
-                        
-
-
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
-    <script src="https://kit.fontawesome.com/a70db94014.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/a70db94014.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
