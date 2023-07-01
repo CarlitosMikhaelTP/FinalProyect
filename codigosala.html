@@ -18,21 +18,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&family=Poppins&display=swap" rel="stylesheet">
     <meta name="robots" content="noindex, follow">
-    
 </head>
+
 <!-- Body con css para la imagen de fondo -->
 <body>
     <!-- Estableciendo NavBar -->
-    <nav class="navbar  navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid px-3">
             <a href="landing.html">
                 <img src="images/Logo - copia.png" class="image-fluid custom-image12" alt="">
-                <b class="navbar-brand px-2" style="color:white">SPACE QUIZ</b>        
-            </a>     
-        </div>
-        <!-- Creación de despliegue de menú dentro del NavBar -->
-        <div class="col-1" id="navclock">
-            <div class="d-flex align-items-center justify-content-center px-3">
+                <b class="navbar-brand px-2" style="color:white">SPACE QUIZ</b>
+            </a>
+            <div class="d-flex align-items-center justify-content-end">
                 <select class="form-select" id="moduleSelect" onchange="redirect()">
                     <option value="" selected disabled>Salir</option>
                     <option value="1">Configuración</option>
@@ -43,25 +40,24 @@
     </nav>
     <!-- Creación de container que contiene cuerpo del cuerpo de la página -->
     <div class="container col-md-12" id="cuerpo">
-        <!-- Estabkeciendo color de fondo transparente -->
-        <div style="background-color: rgba(255, 255, 255, 0.5);">
-            <div id="encabezado" class="container">
-                <h2>Código de la sala</h2>
-                <!-- Estableciendo redondeado -->
-                <div class="codigo-sala rounded-5">
-                    xxxx-xxxx
+        <div class="responsive-container">
+            <!-- Estabkeciendo color de fondo transparente -->
+            <div style="background-color: rgba(255, 255, 255, 0.5);">
+                <div id="encabezado" class="container">
+                    <h2>Código de la sala</h2>
+                    <!-- Estableciendo redondeado -->
+                    <div class="codigo-sala rounded-5">
+                        xxxx-xxxx
+                    </div>
                 </div>
-            </div>
-            <!-- Definiendo los espacios donde se mostrarán los Alumnos que ingresen al juego -->
-            <div class="row">
-                <div class="col-md-1 espacios-negros" style="margin-left: 30%;"></div>
-                <div class="col-md-1 espacios-negros"></div>
-                <div class="col-md-1 espacios-negros"></div>
-                <div class="col-md-1 espacios-negros"></div>
-            </div>
-            <!-- Definiendo la creación de botón iniciar juego -->
-            <div class="py-3">
-                <button class="btn btn-warning btn-lg btn-iniciar-juego py-3 rounded-5">INICIAR JUEGO</button>
+                <!-- Definiendo los espacios donde se mostrarán los Alumnos que ingresen al juego -->
+                <div class="row" id="row">
+                    <!-- Aquí se generarán los 20 espacios negros -->
+                </div>
+                <!-- Definiendo la creación de botón iniciar juego -->
+                <div class="py-3">
+                    <button class="btn btn-warning btn-lg btn-iniciar-juego py-3 rounded-5">INICIAR JUEGO</button>
+                </div>
             </div>
         </div>
     </div>
